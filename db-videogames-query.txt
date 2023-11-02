@@ -50,7 +50,6 @@ where r.rating >= 2 and r.rating <= 4;
 
 9- Selezionare tutti i dati dei videogiochi rilasciati nell'anno 2020 (46)
 
-
 select *
 from videogames v
 where year(v.release_date) = 2020;
